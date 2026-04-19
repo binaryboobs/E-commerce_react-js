@@ -11,7 +11,7 @@ class App extends React.Component {
         {
           id: 1,
           title: 'Gray chair',
-          img: 'chair-grey.jpeg',
+          img: 'gray_chair.jpg',
           desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing',
           category: 'chairs',
           price: '49.99'
@@ -19,7 +19,7 @@ class App extends React.Component {
         {
           id: 2,
           title: 'Table',
-          img: 'table.webp',
+          img: 'table.jpg',
           desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing',
           category: 'tables',
           price: '149.00'
@@ -27,7 +27,7 @@ class App extends React.Component {
         {
           id: 3,
           title: 'White sofa',
-          img: 'sofa-white.webp',
+          img: 'white_sofa.jpg',
           desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing',
           category: 'sofas',
           price: '399.99'
@@ -35,7 +35,7 @@ class App extends React.Component {
         {
           id: 4,
           title: 'Wooden desk',
-          img: 'desk-wood.jpg',
+          img: 'wooden_desk.jpg',
           desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing',
           category: 'desks',
           price: '219.50'
@@ -43,7 +43,7 @@ class App extends React.Component {
         {
           id: 5,
           title: 'Black lamp',
-          img: 'lamp-black.jpg',
+          img: 'black_lamp.jpg',
           desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing',
           category: 'lamps',
           price: '35.00'
@@ -51,7 +51,7 @@ class App extends React.Component {
         {
           id: 6,
           title: 'Blue armchair',
-          img: 'armchair-blue.jpg',
+          img: 'blue_armchair.jpg',
           desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing',
           category: 'chairs',
           price: '129.99'
@@ -59,7 +59,7 @@ class App extends React.Component {
         {
           id: 7,
           title: 'Round coffee table',
-          img: 'coffee-table-round.webp',
+          img: 'round_coffee_table.jpg',
           desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing',
           category: 'tables',
           price: '89.90'
@@ -67,7 +67,7 @@ class App extends React.Component {
         {
           id: 8,
           title: 'Beige bed',
-          img: 'bed-beige.jpeg',
+          img: 'beige_bed.jpg',
           desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing',
           category: 'beds',
           price: '499.00'
@@ -75,7 +75,7 @@ class App extends React.Component {
         {
           id: 9,
           title: 'Modern wardrobe',
-          img: 'wardrobe-modern.jpg',
+          img: 'modern_wardrobe.jpeg',
           desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing',
           category: 'wardrobes',
           price: '650.00'
@@ -83,7 +83,7 @@ class App extends React.Component {
         {
           id: 10,
           title: 'Minimalist shelf',
-          img: 'shelf-minimalist.webp',
+          img: 'minimalist_shelf.jpg',
           desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing',
           category: 'shelves',
           price: '74.99'
@@ -91,7 +91,7 @@ class App extends React.Component {
       ]
     }
   }
-  render(){
+  render() {
     return (
       <div className="wrapper">
         <Header />
