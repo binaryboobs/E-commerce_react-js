@@ -38,6 +38,17 @@ header ul.nav li:hover {
     opacity: 0.5;
 }
 
+header .shop-cart-button {
+    float: right;
+    cursor: pointer;
+    transition: color 500ms ease;
+}
+
+header .shop-cart-button:hover, 
+header .shop-cart-button.active {
+    color: #dc3d3d;
+}
+
 header .presentation {
     position: relative;
     margin: 50px 0;
@@ -82,7 +93,7 @@ main {
 main .item {
     width: 30%;
     margin-bottom: 50px;
-    background: #f5f5f5;
+    background: transparent;
     overflow: hidden;
     position: relative;
     padding-bottom: 20px;
