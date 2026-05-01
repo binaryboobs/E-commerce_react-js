@@ -3,12 +3,17 @@ import { FaCartShopping } from "react-icons/fa6";
 import Order from './Order'
 
 const showOrders = (props) => {
+  let cartTotal = 0;
+  props.orders.forEach(el => {
+    cartTotal += Number.parseFloat(el.price)
+  });
   return (<div>
     {props.orders.map(el => (
-      <Order key={el.id} item={el} />
+      <Order onDelete={props.onDelete} key={el.id} item={el} />
     ))}
+    <p className='total-sum'>Total: {new Intl.NumberFormat().format(cartTotal)}$</p>
   </div>)
-}
+} 
 
 const showNothing = () => {
   return (<div className='empty'>
